@@ -12,19 +12,33 @@ ul {
   list-style: none;
 }
 
+h2 {
+  color: #007765;
+  font-size: 64px;
+  text-align: center;
+  margin: 0;
+  padding: 0 55px;
+}
+
+p {
+  font-size: 32px;
+  padding: 0 55px;
+}
+
 header {
   position: fixed;
   height: 84px;
   width: 100%;
   background-color: #007765;
   color: #fff;
+  transform: translateY(-48px);
+  z-index: 999;
 }
 .fixed_container {
   max-width: 1219px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 55px;
-  box-sizing: border-box;
 }
 
 .header_content img {
@@ -38,18 +52,103 @@ header {
   font-weight: 400;
   font-size: 24px;
   padding-top: 10px;
+  box-sizing: border-box;
 }
 
 .intro {
   background-image: url(img/image.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   width: 100%;
   height: 403px;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 84px;
+  box-sizing: border-box;
 }
-.intro .intro_text p {
+h1.intro-text {
   font-size: 72px;
-  color: #000;
+  color: #fff;
+  text-align: center;
+  transform: translateY(200%);
+}
+
+.problem {
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 50px 0;
+}
+
+
+
+
+.hero {
+  background-image: url(img/Hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 483px;
+  box-sizing: border-box;
+  padding: 130px 270px;
+  text-align: center;
+}
+
+.hero span {
+  font-size: 48px;
+  font-style: italic;
+  color: #fff;
+}
+
+.intro_coin {
+  background-color: #fff;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.intro_coin img {
+  float: left;
+  margin: 25px 55px 0 55px;
+}
+
+.team {
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.team_card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  text-align: center;
+  display: inline-block;
+  width: 26%;
+  padding: 50px 0;
+}
+
+.team_name {
+  color: #007765;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.team_post {
+  color: black;
+  font-style: italic;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #333333;
+  height: 176px;
+}
+.footer-text {
+  width: 540px;
+  padding-top: 60px;
+  padding-left: 40%;
+  margin: 0;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
 }
